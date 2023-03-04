@@ -523,7 +523,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 168.11,
+      "width": 162.55,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -552,7 +552,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "cd-wyck-@maowei",
+    "_string": "cd-wykj-@maowei",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 20,
@@ -582,8 +582,8 @@
     "__prefab": null,
     "_alignFlags": 44,
     "_target": null,
-    "_left": 1160.3575,
-    "_right": 41.532499999999914,
+    "_left": 1163.1375,
+    "_right": 44.31249999999994,
     "_top": 171.3270625,
     "_bottom": 0,
     "_horizontalCenter": 0,
