@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7386.145780995488,
+      "mTimestamp": 7673.354285001755,
       "chunkId": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53",
       "imports": [
         {
@@ -556,7 +556,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1406261.5489780009,
+      "mTimestamp": 919549.9715909958,
       "chunkId": "9cf229abfa71884e036c6807b179e78ad5c3b870",
       "imports": [
         {
@@ -986,7 +986,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1677895715712,
+      "mTimestamp": 1677901566637,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -3597,10 +3597,10 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts": {
       "mTimestamp": {
-        "mtime": 1677768464000,
+        "mtime": 1677902475817.461,
         "uuid": "d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5"
       },
-      "chunkId": "4e0c95d61b69865cb3d48689e53c259418846605",
+      "chunkId": "bfffb72e33f011a711dab6506e88315bffd4389a",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

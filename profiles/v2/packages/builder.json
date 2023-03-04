@@ -7,7 +7,7 @@
       "asyncFunctions": true
     },
     "buildPath": "project://build",
-    "outputName": "web-mobile",
+    "outputName": "web-spine",
     "mainBundleCompressionType": "merge_dep",
     "platform": "web-mobile",
     "scenes": [
@@ -21,13 +21,13 @@
   },
   "BuildTaskManager": {
     "taskMap": {
-      "1677812700879": {
+      "1677902549853": {
         "type": "build",
-        "id": "1677812700879",
+        "id": "1677902549853",
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "2023-3-3 11:05:09 Build success in 8112 ms!",
+        "message": "2023-3-4 12:02:37 Build success in 7902 ms!",
         "options": {
           "name": "spine",
           "platform": "web-mobile",
@@ -45,16 +45,11 @@
           "mainBundleCompressionType": "merge_dep",
           "replaceSplashScreen": true,
           "startScene": "98239f45-2855-4a77-9180-9a1bf3d2ccc7",
-          "outputName": "web-mobile",
+          "outputName": "web-spine",
           "scenes": [
             {
               "url": "db://assets/res/scene/machine.scene",
               "uuid": "98239f45-2855-4a77-9180-9a1bf3d2ccc7",
-              "inBundle": false
-            },
-            {
-              "url": "db://assets/res/scene/test.scene",
-              "uuid": "f491dc33-cbda-49b7-bea1-6cf786813c30",
               "inBundle": false
             }
           ],
@@ -73,7 +68,7 @@
           },
           "__version__": "1.3.3"
         },
-        "time": "2023-3-3 11:05",
+        "time": "2023-3-4 12:02",
         "dirty": false
       }
     }

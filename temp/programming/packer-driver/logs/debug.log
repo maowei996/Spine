@@ -1,11 +1,11 @@
-debug: Sat, 04 Mar 2023 02:08:42 GMT
+debug: Sat, 04 Mar 2023 03:46:14 GMT
 debug: Project: /Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: /Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 1.7045120000839233ms.
+debug: Loading cache costs 3.0337069928646088ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 1.8007830083370209ms.
+debug: Loading cache costs 3.1733869910240173ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -46,12 +46,12 @@ debug: Our import map(foo:/bar): {
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 5.503869995474815ms.
+debug: Fetch asset-db cost: 6.168967008590698ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 14
+Number of accumulated asset changes: 13
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -79,37 +79,30 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Mar 03 2023 10:22:23 GMT+0800 (中国标准时间), Current mtime: Sat Mar 04 2023 10:08:35 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Mar 04 2023 10:49:51 GMT+0800 (中国标准时间), Current mtime: Sat Mar 04 2023 11:46:06 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as cce:/internal/x/cc.
 debug: Resolve ./SingletonMgr from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
@@ -118,38 +111,32 @@ debug: Resolve ./EventManager from file:///Users/weimao/XiaYu/VScodeProject/Coco
 debug: Resolve ./Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
 debug: Resolve ./Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
 debug: Resolve ../EventManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
 debug: Resolve ../Tool/Html5 from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
 debug: Resolve ./FileTools from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts as cce:/internal/x/cc.
 debug: Resolve ../Data/SpineData from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
 debug: Resolve ../Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve ../Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as cce:/internal/x/cc.
 debug: Resolve ../Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve ./OptionScrollview from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts as cce:/internal/x/cc.
@@ -160,17 +147,12 @@ debug: Resolve ../EventManager from file:///Users/weimao/XiaYu/VScodeProject/Coc
 debug: Resolve ../Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
 debug: Resolve ../EventManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(editor) ends with cost 808.2053949981928ms.
+debug: Target(editor) ends with cost 154.78281199932098ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
@@ -190,37 +172,30 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Mar 03 2023 10:22:23 GMT+0800 (中国标准时间), Current mtime: Sat Mar 04 2023 10:08:35 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Mar 04 2023 10:49:51 GMT+0800 (中国标准时间), Current mtime: Sat Mar 04 2023 11:46:06 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as cce:/internal/x/cc.
 debug: Resolve ./SingletonMgr from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
@@ -229,38 +204,32 @@ debug: Resolve ./EventManager from file:///Users/weimao/XiaYu/VScodeProject/Coco
 debug: Resolve ./Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
 debug: Resolve ./Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
 debug: Resolve ../EventManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
 debug: Resolve ../Tool/Html5 from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
 debug: Resolve ./FileTools from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts as cce:/internal/x/cc.
 debug: Resolve ../Data/SpineData from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
 debug: Resolve ../Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve ../Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as cce:/internal/x/cc.
 debug: Resolve ../Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve ./OptionScrollview from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts as cce:/internal/x/cc.
@@ -271,22 +240,17 @@ debug: Resolve ../EventManager from file:///Users/weimao/XiaYu/VScodeProject/Coc
 debug: Resolve ../Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
 debug: Resolve ../EventManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts.
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(preview) ends with cost 592.3439780026674ms.
+debug: Target(preview) ends with cost 118.7409639954567ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 27.7445700019598ms.
+debug: Fetch asset-db cost: 17.217267990112305ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 14
+Number of accumulated asset changes: 13
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
@@ -298,13 +262,12 @@ debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(editor) ends with cost 31.82769900560379ms.
+debug: Target(editor) ends with cost 49.83365100622177ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
@@ -316,17 +279,16 @@ debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/NewComponent.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(preview) ends with cost 33.467513993382454ms.
+debug: Target(preview) ends with cost 36.10943500697613ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:58 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:18 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
@@ -335,15 +297,22 @@ debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
+debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts. Last mtime: Thu Mar 02 2023 22:47:44 GMT+0800 (中国标准时间)@d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5, Current mtime: Sat Mar 04 2023 11:56:23 GMT+0800 (中国标准时间)@d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5
+debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve ./FileTools from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(editor) ends with cost 52.32678399980068ms.
+debug: Target(editor) ends with cost 134.93850600719452ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:58 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:18 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
@@ -352,198 +321,69 @@ debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
+debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts. Last mtime: Thu Mar 02 2023 22:47:44 GMT+0800 (中国标准时间)@d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5, Current mtime: Sat Mar 04 2023 11:56:23 GMT+0800 (中国标准时间)@d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5
+debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve ./FileTools from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(preview) ends with cost 39.22070801258087ms.
-debug: Dispatch build request for time accumulated 4 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 4
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:38 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts. Last mtime: Fri Mar 03 2023 10:37:08 GMT+0800 (中国标准时间)@54852d39-9eff-45a8-a104-3aa34406630f, Current mtime: Sat Mar 04 2023 10:25:48 GMT+0800 (中国标准时间)@54852d39-9eff-45a8-a104-3aa34406630f
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts. Last mtime: Thu Mar 02 2023 20:08:21 GMT+0800 (中国标准时间)@d1dee847-e16d-4940-9585-6d6a6e2ab9f3, Current mtime: Sat Mar 04 2023 10:22:00 GMT+0800 (中国标准时间)@d1dee847-e16d-4940-9585-6d6a6e2ab9f3
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts. Last mtime: Fri Mar 03 2023 10:58:22 GMT+0800 (中国标准时间)@c3a9fc9b-26d7-4bc7-8b42-977655c4cac7, Current mtime: Sat Mar 04 2023 10:21:07 GMT+0800 (中国标准时间)@c3a9fc9b-26d7-4bc7-8b42-977655c4cac7
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
-debug: Resolve ./EventManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Resolve ./Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Resolve ./Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts. Last mtime: Fri Mar 03 2023 00:12:41 GMT+0800 (中国标准时间)@5b2a9a05-f754-498d-8232-130b6d6a8939, Current mtime: Sat Mar 04 2023 10:24:35 GMT+0800 (中国标准时间)@5b2a9a05-f754-498d-8232-130b6d6a8939
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
-debug: Resolve ../EventManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Resolve ../Tool/Html5 from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Resolve ../Data/SpineData from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
-debug: Resolve ../Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Resolve ../Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(editor) ends with cost 332.50821501016617ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:38 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts. Last mtime: Fri Mar 03 2023 10:37:08 GMT+0800 (中国标准时间)@54852d39-9eff-45a8-a104-3aa34406630f, Current mtime: Sat Mar 04 2023 10:25:48 GMT+0800 (中国标准时间)@54852d39-9eff-45a8-a104-3aa34406630f
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts. Last mtime: Thu Mar 02 2023 20:08:21 GMT+0800 (中国标准时间)@d1dee847-e16d-4940-9585-6d6a6e2ab9f3, Current mtime: Sat Mar 04 2023 10:22:00 GMT+0800 (中国标准时间)@d1dee847-e16d-4940-9585-6d6a6e2ab9f3
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts. Last mtime: Fri Mar 03 2023 10:58:22 GMT+0800 (中国标准时间)@c3a9fc9b-26d7-4bc7-8b42-977655c4cac7, Current mtime: Sat Mar 04 2023 10:21:07 GMT+0800 (中国标准时间)@c3a9fc9b-26d7-4bc7-8b42-977655c4cac7
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as cce:/internal/x/cc.
-debug: Resolve ./EventManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Resolve ./Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Resolve ./Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts. Last mtime: Fri Mar 03 2023 00:12:41 GMT+0800 (中国标准时间)@5b2a9a05-f754-498d-8232-130b6d6a8939, Current mtime: Sat Mar 04 2023 10:24:35 GMT+0800 (中国标准时间)@5b2a9a05-f754-498d-8232-130b6d6a8939
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
-debug: Resolve ../EventManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Resolve ../Tool/Html5 from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Resolve ../Data/SpineData from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
-debug: Resolve ../Data/SkeletManager from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Resolve ../Define from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(preview) ends with cost 343.0214309990406ms.
+debug: Target(preview) ends with cost 111.16998898983002ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:38 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:19:58 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:15:19 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts. Last mtime: Sat Mar 04 2023 10:25:48 GMT+0800 (中国标准时间)@54852d39-9eff-45a8-a104-3aa34406630f, Current mtime: Sat Mar 04 2023 10:28:17 GMT+0800 (中国标准时间)@54852d39-9eff-45a8-a104-3aa34406630f
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
+debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts. Last mtime: Sat Mar 04 2023 11:56:23 GMT+0800 (中国标准时间)@d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5, Current mtime: Sat Mar 04 2023 12:01:15 GMT+0800 (中国标准时间)@d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5
+debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve ./FileTools from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(editor) ends with cost 49.69285999238491ms.
+debug: Target(editor) ends with cost 82.7269179970026ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:38 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:19:58 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:15:19 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts. Last mtime: Sat Mar 04 2023 10:25:48 GMT+0800 (中国标准时间)@54852d39-9eff-45a8-a104-3aa34406630f, Current mtime: Sat Mar 04 2023 10:28:17 GMT+0800 (中国标准时间)@54852d39-9eff-45a8-a104-3aa34406630f
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(preview) ends with cost 63.84258000552654ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:19:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:26 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts. Last mtime: Thu Mar 02 2023 00:00:52 GMT+0800 (中国标准时间)@ec798309-b824-4649-8a0b-47a92237d11d, Current mtime: Sat Mar 04 2023 10:31:59 GMT+0800 (中国标准时间)@ec798309-b824-4649-8a0b-47a92237d11d
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
+debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts. Last mtime: Sat Mar 04 2023 11:56:23 GMT+0800 (中国标准时间)@d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5, Current mtime: Sat Mar 04 2023 12:01:15 GMT+0800 (中国标准时间)@d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5
+debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as cce:/internal/x/cc.
+debug: Resolve ./FileTools from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
 debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(editor) ends with cost 54.44655799865723ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:19:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:26 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts.
-debug: Detected change: file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts. Last mtime: Thu Mar 02 2023 00:00:52 GMT+0800 (中国标准时间)@ec798309-b824-4649-8a0b-47a92237d11d, Current mtime: Sat Mar 04 2023 10:31:59 GMT+0800 (中国标准时间)@ec798309-b824-4649-8a0b-47a92237d11d
-debug: Inspect file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SkeletManager.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Define.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Drag.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/Menu.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/SingletonMgr.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/FileTools.ts.
-debug: Resolve file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts from cce:/internal/x/prerequisite-imports as file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts.
-debug: Target(preview) ends with cost 73.48572099208832ms.
+debug: Target(preview) ends with cost 86.25208699703217ms.

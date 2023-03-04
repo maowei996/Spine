@@ -4,7 +4,7 @@
       "asyncFunctions": true
     },
     "buildPath": "project://build",
-    "outputName": "web-mobile",
+    "outputName": "web-spine",
     "mainBundleCompressionType": "merge_dep",
     "platform": "web-mobile",
     "scenes": [

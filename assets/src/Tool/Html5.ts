@@ -61,6 +61,9 @@ export class Html5 {
 
         let filedata = files[0];
         _cb && _cb(filedata);
+
+        // document.removeChild(inputel);
+        inputel.remove();
       }
 
     }
