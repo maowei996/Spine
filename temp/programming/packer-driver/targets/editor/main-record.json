@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7067.03330899775,
+      "mTimestamp": 10404.148298978806,
       "chunkId": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53",
       "imports": [
         {
@@ -556,7 +556,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 7504.197062000632,
+      "mTimestamp": 5023269.530487001,
       "chunkId": "9cf229abfa71884e036c6807b179e78ad5c3b870",
       "imports": [
         {
@@ -986,7 +986,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1677906232809,
+      "mTimestamp": 1677941242295,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -3429,10 +3429,10 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts": {
       "mTimestamp": {
-        "mtime": 1677896675837.1375,
+        "mtime": 1677945030588.8098,
         "uuid": "5b2a9a05-f754-498d-8232-130b6d6a8939"
       },
-      "chunkId": "a579c65b8f226064d42efd7f42451a2d9d293223",
+      "chunkId": "9d58f3bbd99694dbe36056d26495f01ca02fee5f",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3597,10 +3597,10 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts": {
       "mTimestamp": {
-        "mtime": 1677902475817.461,
+        "mtime": 1677946261223.614,
         "uuid": "d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5"
       },
-      "chunkId": "bfffb72e33f011a711dab6506e88315bffd4389a",
+      "chunkId": "73bf6c85896a54efb627987841ec71f5b219275b",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3617,11 +3617,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 49
+              "column": 53
             },
             "end": {
               "line": 1,
-              "column": 53
+              "column": 57
             }
           }
         },
@@ -3703,7 +3703,7 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts": {
       "mTimestamp": {
-        "mtime": 1677810875000,
+        "mtime": 1677945519068.774,
         "uuid": "ce5782de-a754-46e6-8f4f-da04fb8648dd"
       },
       "chunkId": "fcafe8287a25fa9b28a892377cd26af7a13d1e38",
@@ -3902,10 +3902,10 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts": {
       "mTimestamp": {
-        "mtime": 1677689651000,
+        "mtime": 1677945529499.179,
         "uuid": "4793b27d-6be9-437a-93bf-3f0d81ec1017"
       },
-      "chunkId": "14d51a67138edeb2706bf1a7d191f6d03b9a0903",
+      "chunkId": "a86579d0e11fd3c26c2fce2735029d7f38e053d0",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3971,6 +3971,20 @@
               "column": 42
             }
           }
+        },
+        {
+          "value": "../Tool/Html5",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 22
+            },
+            "end": {
+              "line": 5,
+              "column": 37
+            }
+          }
         }
       ],
       "type": "esm",
@@ -4021,6 +4035,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts"
           },
           "messages": []
         }

@@ -2,6 +2,8 @@ import { _decorator, Component, Node,Prefab,ScrollView, instantiate } from 'cc';
 import { ItemOption } from './ItemOption';
 import {EventType, EventData} from '../Define';
 import EventManager from '../EventManager';
+import { Html5 } from '../Tool/Html5';
+
 const { ccclass, property } = _decorator;
   
 //界面类型
@@ -96,9 +98,11 @@ export class OptionScrollview extends Component {
     }
     else if(this.viewType == ViewType.Animation_view) {
       eventType = EventType.CHANGE_SPINE_ANIMATION;
+      Html5.setClipboardData(this._curChooseName);
     }
     else if(this.viewType == ViewType.Skin_viwe) {
       eventType = EventType.UPDATE_SPINE_SKIN;
+      Html5.setClipboardData(this._curChooseName);
     }
 
     let param: EventData = new EventData();

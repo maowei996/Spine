@@ -21,13 +21,13 @@
   },
   "BuildTaskManager": {
     "taskMap": {
-      "1677906399816": {
+      "1677946501343": {
         "type": "build",
-        "id": "1677906399816",
+        "id": "1677946501343",
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "2023-3-4 13:06:46 Build success in 6254 ms!",
+        "message": "2023-3-5 00:15:07 Build success in 6350 ms!",
         "options": {
           "name": "spine",
           "platform": "web-mobile",
@@ -68,7 +68,7 @@
           },
           "__version__": "1.3.3"
         },
-        "time": "2023-3-4 13:06",
+        "time": "2023-3-5 00:15",
         "dirty": false
       }
     }

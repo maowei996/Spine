@@ -152,7 +152,7 @@ export class FileOper extends Component {
 
   onPng () {
     let self = this;
-    Html5.readTexture2d(function(name: string, url: string, texture: Texture2D ){
+    Html5.readTexture2d('.png',function(name: string, url: string, texture: Texture2D ){
       self._textureData = texture;
       self._pngName = name;
       self._url = url;
@@ -164,7 +164,7 @@ export class FileOper extends Component {
   onJsonData () {
 
     let self = this;
-    Html5.readLocalFile(function( name: string, data : any ){
+    Html5.readLocalFile('.json',1,function( name: string, data : any ){
       self._jsonData = data
       self.checkComplect();
     });
@@ -173,7 +173,7 @@ export class FileOper extends Component {
 
   onAtlasData() {
     let self = this;
-    Html5.readLocalFile(function( name: string, data : any ){
+    Html5.readLocalFile('.atlas',1,function( name: string, data : any ){
       self._atlasData = data
       self._key = name.split('.')[0];
       self.checkComplect();
@@ -184,7 +184,7 @@ export class FileOper extends Component {
 
     let self = this;
 
-    Html5.readLocalFile(function( name: string, data : any ,url: string){
+    Html5.readLocalFile('.skel',3,function( name: string, data : any ,url: string){
 
       // console.log('name:',name);
       // console.log('url:',url)
@@ -194,7 +194,7 @@ export class FileOper extends Component {
 
       self._skeletData = data;
       self.checkComplect();
-    },3);
+    });
   }
   
 }

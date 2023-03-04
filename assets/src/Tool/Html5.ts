@@ -1,4 +1,4 @@
-import { Texture2D,ImageAsset,SpriteFrame } from 'cc';
+import { Texture2D,ImageAsset,SpriteFrame,sys } from 'cc';
 import FileTools from './FileTools';
 
 let mime = {'png': 'image/png', 'jpg': 'image/jpeg', 'jpeg': 'image/jpeg', 'bmp': 'image/bmp'};
@@ -38,7 +38,7 @@ let SelectFile = function ( file : any) :string {
 export class Html5 {
 
 
-  public static HtmlFileInput( _cb : Function) : void {
+  public static HtmlFileInput(  _fileType:string, _cb : Function,) : void {
 
     let inputel : HTMLInputElement = <HTMLInputElement>document.getElementById('file_input');
     if(!inputel) {
@@ -53,7 +53,7 @@ export class Html5 {
       document.body.appendChild(inputel);
     }
 
-    inputel.setAttribute('accept', '*');
+    inputel.setAttribute('accept', _fileType || '*');
     inputel.onchange = function(event: any) {
 
       let files = inputel.files;
@@ -61,15 +61,63 @@ export class Html5 {
 
         let filedata = files[0];
         _cb && _cb(filedata);
-
-        // document.removeChild(inputel);
-        inputel.remove();
       }
-
+      // inputel.remove();
     }
 
+    inputel.onclick = function () {
+      inputel.remove();
+    }
+
+    // inputel.oncancel = function () {
+    //   inputel.remove();
+    // }
+
+    // inputel.onclose = function () {
+    //   inputel.remove();
+    // }
+
+    // inputel.ondblclick = function () {
+    //   inputel.remove();
+    // }
+
+    // inputel.onended = function () {
+    //   inputel.remove();
+    // }
+
+    // inputel.onemptied = function () {
+    //   inputel.remove();
+    // }
 
     inputel.click();
+  }
+
+  /**
+   * 设置系统剪贴板的内容
+   * @param str 
+   */
+  public static setClipboardData(str: string): void {
+    if (!str || str == '') return window.alert('文本无效');
+    if (sys.platform == 'MOBILE_BROWSER' || sys.platform == 'DESKTOP_BROWSER'){
+      if (!document.queryCommandSupported('copy')) {
+        window.alert('浏览器不支持');
+        return;
+      }
+      let textarea = document.createElement("textarea")
+      textarea.value = str
+      document.body.appendChild(textarea)
+      textarea.select()
+      textarea.setSelectionRange(0, str.length)
+      let result = document.execCommand("copy")
+      if(result){
+        //window.alert('已成功复制到剪贴板！');
+      }else{
+        //window.alert('复制失败！');
+      }    
+      textarea.remove();
+      return;
+    }
+    window.alert('暂不支持该平台复制');
   }
 
 
@@ -140,9 +188,9 @@ export class Html5 {
 
 
 
-  static readLocalFile ( cbComplect:Function , readType:number = 1):void {
+  static readLocalFile (fileType:string, readType:number = 1,cbComplect:Function ):void {
 
-    Html5.HtmlFileInput(function( file : any ){
+    Html5.HtmlFileInput(fileType,function( file : any ){
       FileTools.getInstance().readLocalFile(file,readType,function( data : any ){
 
         let url = SelectFile(file);
@@ -154,9 +202,9 @@ export class Html5 {
   }
 
 
-  static readTexture2d ( cbComplect:Function ):void {
+  static readTexture2d (fileType:string, cbComplect:Function ):void {
 
-    Html5.HtmlFileInput(function( file : any ){
+    Html5.HtmlFileInput(fileType,function( file : any ){
       Html5.LoadImage(file,null, function( url: string, texture: Texture2D ){
         cbComplect && cbComplect(file.name,url, texture);
       });

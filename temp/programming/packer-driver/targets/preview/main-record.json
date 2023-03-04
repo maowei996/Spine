@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7072.6209249943495,
+      "mTimestamp": 10408.258008986712,
       "chunkId": "68d99eb2bd5ac449d443d1d23e7119c95c84ec84",
       "imports": [
         {
@@ -388,7 +388,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 7540.688077002764,
+      "mTimestamp": 5023410.368992984,
       "chunkId": "45292b8bc6169b19c12e534beb53a756d2ae5f38",
       "imports": [
         {
@@ -818,7 +818,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1677906232809,
+      "mTimestamp": 1677941242295,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -3261,10 +3261,10 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts": {
       "mTimestamp": {
-        "mtime": 1677896675837.1375,
+        "mtime": 1677945030588.8098,
         "uuid": "5b2a9a05-f754-498d-8232-130b6d6a8939"
       },
-      "chunkId": "445ac3cf3339dd63ee52fa131d2c4ddc5f1e4370",
+      "chunkId": "0898cc49fc5e3b07bc23bdf058693ba41cae3439",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3429,10 +3429,10 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts": {
       "mTimestamp": {
-        "mtime": 1677902475817.461,
+        "mtime": 1677946261223.614,
         "uuid": "d1c44349-1bc0-4d01-8b99-aea0ff7dc8d5"
       },
-      "chunkId": "44f5e045a0409c452ff50a9c5544a31528c6f3f4",
+      "chunkId": "5076f9ac5b58b38853c579ac452f29622d14b060",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3449,11 +3449,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 49
+              "column": 53
             },
             "end": {
               "line": 1,
-              "column": 53
+              "column": 57
             }
           }
         },
@@ -3535,7 +3535,7 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/ItemOption.ts": {
       "mTimestamp": {
-        "mtime": 1677810875000,
+        "mtime": 1677945519068.774,
         "uuid": "ce5782de-a754-46e6-8f4f-da04fb8648dd"
       },
       "chunkId": "4118dc3406b9e2c53dc4fd2e6350ac875bc9ed2e",
@@ -3734,10 +3734,10 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts": {
       "mTimestamp": {
-        "mtime": 1677689651000,
+        "mtime": 1677945529499.179,
         "uuid": "4793b27d-6be9-437a-93bf-3f0d81ec1017"
       },
-      "chunkId": "2aeac957e4a82b05ca34ac5e365bc29950564299",
+      "chunkId": "19cc6753879de5e9d4fc185ccfe34751aa10272d",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3803,6 +3803,20 @@
               "column": 42
             }
           }
+        },
+        {
+          "value": "../Tool/Html5",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 22
+            },
+            "end": {
+              "line": 5,
+              "column": 37
+            }
+          }
         }
       ],
       "type": "esm",
@@ -3853,6 +3867,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/EventManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Tool/Html5.ts"
           },
           "messages": []
         }
