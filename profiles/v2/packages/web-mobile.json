@@ -1,0 +1,19 @@
+{
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "scenes": [
+      {
+        "url": "db://assets/res/scene/machine.scene",
+        "uuid": "98239f45-2855-4a77-9180-9a1bf3d2ccc7",
+        "inBundle": false
+      }
+    ],
+    "replaceSplashScreen": true
+  }
+}

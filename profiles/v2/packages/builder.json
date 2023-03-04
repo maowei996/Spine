@@ -1,0 +1,81 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "scenes": [
+      {
+        "url": "db://assets/res/scene/machine.scene",
+        "uuid": "98239f45-2855-4a77-9180-9a1bf3d2ccc7",
+        "inBundle": false
+      }
+    ],
+    "replaceSplashScreen": true
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1677812700879": {
+        "type": "build",
+        "id": "1677812700879",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-3-3 11:05:09 Build success in 8112 ms!",
+        "options": {
+          "name": "spine",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "replaceSplashScreen": true,
+          "startScene": "98239f45-2855-4a77-9180-9a1bf3d2ccc7",
+          "outputName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/res/scene/machine.scene",
+              "uuid": "98239f45-2855-4a77-9180-9a1bf3d2ccc7",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/res/scene/test.scene",
+              "uuid": "f491dc33-cbda-49b7-bea1-6cf786813c30",
+              "inBundle": false
+            }
+          ],
+          "web-mobile": [],
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "embedWebDebugger": false,
+              "__version__": "1.0.1"
+            },
+            "cocos-service": {
+              "configID": "d06116",
+              "services": [],
+              "__version__": "3.0.4"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-3-3 11:05",
+        "dirty": false
+      }
+    }
+  }
+}
