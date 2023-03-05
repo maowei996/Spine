@@ -71,6 +71,8 @@ export class OptionScrollview extends Component {
 
         if(this.viewType != ViewType.Event_view){
           this.choose(ani);
+        } else  {
+          Html5.setClipboardData(ani);
         }
 
       }.bind(this);

@@ -32,6 +32,12 @@ export class Machine extends Component {
   @property(Label)
   slotsLaebl: Label = null;
 
+  @property(Label)
+  timeScale: Label = null;
+
+  @property(Label)
+  spineName: Label = null;
+
 
   spineJson :any = null;
   spineAtlas : any = null;
@@ -64,7 +70,7 @@ export class Machine extends Component {
 
       this.updateUI();
 
-      // console.log('onEvent.skeleton:',skeleton);
+      console.log('onEvent.skeleton:',skeleton);
     }
     else if(_eventType == EventType.CHANGE_SPINE){
       //切换角色
@@ -88,7 +94,12 @@ export class Machine extends Component {
       skeleton.setSkin(data.param);
     }
     else if(_eventType == EventType.OPENOROFF_DEBUG){
-
+      let skeleton = this.skeleton;
+      if(skeleton) {
+        skeleton.debugBones = true;
+        skeleton.debugSlots = true;
+        skeleton.debugMesh = true;
+      }
     }
     else if(_eventType == EventType.CHANGE_SPINE_LOOP){
       skeleton.loop = data.param;
@@ -106,6 +117,8 @@ export class Machine extends Component {
     this.versionLaebl.string = 'version:'+skelet.version;
     this.bonesLaebl.string = 'bones:'+skelet.bones;
     this.slotsLaebl.string = 'slots:'+skelet.slots;
+    this.timeScale.string = 'timeScale:' + this.skeleton.timeScale;
+    this.spineName.string = 'name:'+skelet.key;
   }
 
 

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 10408.258008986712,
+      "mTimestamp": 7543.398726001382,
       "chunkId": "68d99eb2bd5ac449d443d1d23e7119c95c84ec84",
       "imports": [
         {
@@ -388,7 +388,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 5023410.368992984,
+      "mTimestamp": 1648242.87799,
       "chunkId": "45292b8bc6169b19c12e534beb53a756d2ae5f38",
       "imports": [
         {
@@ -818,7 +818,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1677941242295,
+      "mTimestamp": 1678033596492,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -2923,7 +2923,7 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Data/SpineData.ts": {
       "mTimestamp": {
-        "mtime": 1677896897671.5767,
+        "mtime": 1678034749178.656,
         "uuid": "54852d39-9eff-45a8-a104-3aa34406630f"
       },
       "chunkId": "4ca134a59ae2b9a47208d39b35ea79eed3b1a501",
@@ -3135,10 +3135,10 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Machine.ts": {
       "mTimestamp": {
-        "mtime": 1677896467491.7573,
+        "mtime": 1678035122461.449,
         "uuid": "c3a9fc9b-26d7-4bc7-8b42-977655c4cac7"
       },
-      "chunkId": "4a08002b505cb6d109585d9a6055a336848bf62b",
+      "chunkId": "f746b48ff9841c1b10a17eb28a4d31c23194a64e",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3261,7 +3261,7 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/FileOper.ts": {
       "mTimestamp": {
-        "mtime": 1677945030588.8098,
+        "mtime": 1678035239281.423,
         "uuid": "5b2a9a05-f754-498d-8232-130b6d6a8939"
       },
       "chunkId": "0898cc49fc5e3b07bc23bdf058693ba41cae3439",
@@ -3734,10 +3734,10 @@
     },
     "file:///Users/weimao/XiaYu/VScodeProject/CocosCreate/Spine/assets/src/Menu/OptionScrollview.ts": {
       "mTimestamp": {
-        "mtime": 1677945529499.179,
+        "mtime": 1678035234749.2886,
         "uuid": "4793b27d-6be9-437a-93bf-3f0d81ec1017"
       },
-      "chunkId": "19cc6753879de5e9d4fc185ccfe34751aa10272d",
+      "chunkId": "4f8a54e1e78fe9b65f6d9ac91b14b18fef14d156",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
