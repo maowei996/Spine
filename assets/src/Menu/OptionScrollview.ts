@@ -84,12 +84,12 @@ export class OptionScrollview extends Component {
   private choose( animation: string ) {
 
     console.log('choose:',animation,this._curChooseName);
-    if(this._curChooseName!=animation){
+    //if(this._curChooseName!=animation){
 
       this._curChooseName = animation;
       // console.log('选择item选项_name = ',animation);
       this.notify();
-    }
+    //}
   }
 
   private notify() {

@@ -25,6 +25,12 @@ export enum EventType {
 
   //设置缩放
   UPDATE_SCALE = 7,
+
+  //创建Spine
+  CREATE_SPINE = 8,
+
+  //切换控制对象
+  CHANGE_CONTROL = 9,
 }
 
 
@@ -42,5 +48,4 @@ export class EventData {
   public eventType: EventType = EventType.NONE;
 
   public param: any = null;
-
 }

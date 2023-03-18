@@ -7,7 +7,7 @@ export default class SingletonMgr {
     return (<any>this).__instance;
   }
 
-  public static destroyInstance<T extends {}>(this: new () => T): void {
+  public static destroy<T extends {}>(this: new () => T): void {
     if ((<any>this).__instance){
       (<any>this).__instance = null;
     }

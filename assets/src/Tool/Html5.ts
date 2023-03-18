@@ -1,8 +1,8 @@
 import { Texture2D,ImageAsset,SpriteFrame,sys } from 'cc';
 import FileTools from './FileTools';
+import { SkeletManager } from '../Data/SkeletManager';
 
-let mime = {'png': 'image/png', 'jpg': 'image/jpeg', 'jpeg': 'image/jpeg', 'bmp': 'image/bmp'};
-
+const mime = {'png': 'image/png', 'jpg': 'image/jpeg', 'jpeg': 'image/jpeg', 'bmp': 'image/bmp'};
 
 
 
@@ -13,8 +13,7 @@ let createObjectURL = function(blob : Blob){
     return window['webkitURL']['createObjectURL'](blob);
 }
 
-
-let SelectFile = function ( file : any) :string {
+function SelectFile( file : any) :string {
   if(!file){
     console.log('SelectFile error!');
     return;
@@ -25,14 +24,9 @@ let SelectFile = function ( file : any) :string {
     fileType = mime[file.name.match(/\.([^\.]+)$/i)[1]];
   }
 
-  var url  = createObjectURL(file);
-
-  return url;
+  return createObjectURL(file);;
 }
 
-
-
-///html 接口
 
 
 export class Html5 {
@@ -92,6 +86,67 @@ export class Html5 {
     inputel.click();
   }
 
+
+  public static createElementDiv(  cbComplect: any ): void {
+    let div = document.createElement('div');
+    var text = document.createTextNode('拖入Spine文件到此处');
+    document.body.appendChild(div);
+    //var root = document.getElementById('GameCanvas')
+    //root.appendChild(div);
+    //div.style.textAlign = "center";
+    //div.style.lineHeight = "100px";
+    //div.innerText = "拖入Spine文件到此处";
+
+    document.body.appendChild(div);
+    div.id = 'dragDiv';
+    div.className = 'dragDivClass';
+    div.style.width = '155px';
+    div.style.height = '200px';
+    div.style.border = '1px solid rgb(255, 0, 0)';
+    div.appendChild(text);
+
+    div.style.position = 'absolute';
+    // div.style.margin = '0 auto';
+    div.style.left='0px';
+    div.style.top='380px';
+
+    // var curDate = new Date();
+    // var timeLab = document.createElement("p");
+    // timeLab.innerText = "拖入Spine文件到此处";
+    // // timeLab.style.backgroundColor = "red";
+    // timeLab.style.width = "155px";
+    // timeLab.style.height = "20px";
+    // timeLab.style.textAlign = "center";
+    // timeLab.style.display = "inline-block";
+    // timeLab.style.verticalAlign = "middle";
+    // timeLab.style.marginTop = (parseFloat(div.style.height) - parseFloat(div.style.height))/2.0 + "px";
+    // div.appendChild(timeLab);
+
+
+    //添加事件
+    div.addEventListener("dragover",function(e){
+      e.preventDefault();
+    })
+    div.addEventListener("drop",function(e){
+      e.preventDefault();
+
+      var filelist=e.dataTransfer.files;
+
+      if(filelist.length==0){
+        return false;
+      }
+
+      if(true && filelist.length!=3) {
+        alert("数量不符合,必须是3个文件!!!");
+        return false;
+      }
+
+      if(cbComplect){
+        cbComplect(filelist);
+      }
+    })
+  }
+
   /**
    * 设置系统剪贴板的内容
    * @param str 
@@ -143,13 +198,12 @@ export class Html5 {
     image.onload = function () {
       console.log('=========LoadImage.image.onload');
 
-      console.log('width:',this.width);
-      console.log('width:',this.height);
+      //console.log('width:',this.width);
+      //console.log('width:',this.height);
 
       //console.log(image);
 
       let strurl = image.currentSrc
-
 
       //let img = new Image();
       //img.src = strurl
@@ -160,7 +214,8 @@ export class Html5 {
 
       let texture = new Texture2D();
       texture.image = imas;
-      console.log(texture);
+      //console.log(texture);
+
       // texture.initWithElement(image);
       // texture.handleLoadedTexture();
 
@@ -209,6 +264,11 @@ export class Html5 {
         cbComplect && cbComplect(file.name,url, texture);
       });
     });
+  }
+
+  static getFileUrl (file: any ): string {
+
+    return SelectFile(file);
   }
 
 }
