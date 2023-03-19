@@ -13,9 +13,10 @@ enum ViewType {
   Animation_view =2,
   Skin_viwe = 3,
   Event_view = 4,
-
-  MAX = 255
+  MAX = 255,
 }
+
+
 
 @ccclass('OptionScrollview')
 export class OptionScrollview extends Component {
@@ -24,16 +25,22 @@ export class OptionScrollview extends Component {
   itemOption: Prefab = null;
 
   @property(Number)
-  viewType: Number = 0;
+  viewType: ViewType = 0;
 
   private _data: any = null;
 
   private _curChooseName: string = '';
 
+  private _spineOptionClick : Function = null;
+
 
   start() {
     // this.loadLisit([]);
     // this.skeletons([]);
+  }
+
+  public setOptionCallBack (_callback  : Function) {
+    this._spineOptionClick = _callback;
   }
 
   public skeletons(data: any) {
@@ -68,6 +75,14 @@ export class OptionScrollview extends Component {
       option.itemName = array[i];
 
       option.clickFunc = function(ani:string){
+
+        if(this._spineOptionClick) {
+
+          this._spineOptionClick(ani);
+          Html5.setClipboardData(ani);
+
+          return;
+        }
 
         if(this.viewType != ViewType.Event_view){
           this.choose(ani);

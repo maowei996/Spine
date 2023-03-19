@@ -149,6 +149,11 @@ export class Machine extends Component {
 
       this.skeleton = component.getSkeleton();
 
+      if(spinData.bBinary){
+        spinData.parseto();
+        this.skeleton.animation = spinData.defanimation;
+      }
+
       this.updateUI();
     }
     else if(_eventType == EventType.CHANGE_CONTROL) {

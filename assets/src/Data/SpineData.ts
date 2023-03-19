@@ -99,6 +99,9 @@ export class SpineData {
 
   private parseSkel(  ):void {
     let _skeletonCashe: any = this.skeletonData._skeletonCache;
+    if(!_skeletonCashe){
+      return;
+    }
     this.width = _skeletonCashe.width;
     this.height = _skeletonCashe.height;
     this.version = _skeletonCashe.version;

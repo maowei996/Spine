@@ -66,6 +66,13 @@ export class SkeletManager {
     return this._map.get(key);
   }
 
+  public isHas(key: string) {
+    if(this._map.has(key)) {
+      return true;
+    }
+    return false;
+  }
+
   public find(spineKey: string):SpineData {
 
     let data: SpineData = null;
@@ -98,9 +105,6 @@ export class SkeletManager {
 
   public parse( files: FileList ) :void {
 
-    //console.log('解析数据')
-    //console.log(files)
-
     let resKey = {
       'json': 1,
       'atlas': 1,
@@ -125,10 +129,7 @@ export class SkeletManager {
       }
     }
 
-    //console.log(arrayBuffer)
-    //console.log(load)
     this._IspNode = {url:'',key:'',pngName:'',nativeUrl:'',binary:false,bjson:false};
-
 
     if(load['png'] && load['atlas'] ) {
       this._IspNode.bjson = load['json'];
@@ -137,6 +138,12 @@ export class SkeletManager {
 
     if(!this._IspNode.bjson && !this._IspNode.binary){
       alert('解析错误,格式不正确!')
+      return;
+    }
+
+    let key = arrayBuffer['atlas'].file.name.split('.')[0]
+    if(this.isHas(key)){
+      alert('已经加载过这个Spine动画!')
       return;
     }
 

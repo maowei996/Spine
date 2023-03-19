@@ -70,6 +70,11 @@ export class FileOper extends Component {
 
   private addSkeletonData (): void {
 
+    if(SkeletManager.getInstance().isHas(this._key)){
+      alert('重复加载!!!')
+      return;
+    }
+
     let asset = new sp.SkeletonData();
     
     if (this._bJson){
@@ -135,12 +140,15 @@ export class FileOper extends Component {
 
     SkeletManager.getInstance().add(data);
 
+    //let param: EventData = new EventData();
+    //param.eventType = EventType.REFRESH_SKELETON
+    //param.param = data;
+    //EventManager.getInstance().emit('machine', param);
+
+
     let param: EventData = new EventData();
-    param.eventType = EventType.REFRESH_SKELETON
+    param.eventType = EventType.CREATE_SPINE;
     param.param = data;
-
-
-    // console.log('SkeletonData:',data);
 
     EventManager.getInstance().emit('machine', param);
     

@@ -52,7 +52,7 @@
         "_value": false
       },
       "physics-2d": {
-        "_value": true,
+        "_value": false,
         "_option": "physics-2d-box2d"
       },
       "physics-2d-box2d": {
@@ -80,13 +80,13 @@
         "_value": false
       },
       "particle-2d": {
-        "_value": true
+        "_value": false
       },
       "audio": {
-        "_value": true
+        "_value": false
       },
       "video": {
-        "_value": true
+        "_value": false
       },
       "webview": {
         "_value": true
@@ -98,7 +98,7 @@
         "_value": false
       },
       "tiled-map": {
-        "_value": true
+        "_value": false
       },
       "spine": {
         "_value": true
@@ -116,20 +116,15 @@
     "includeModules": [
       "2d",
       "animation",
-      "audio",
       "base",
       "dragon-bones",
       "gfx-webgl",
       "gfx-webgl2",
       "intersection-2d",
-      "particle-2d",
-      "physics-2d-box2d",
       "profiler",
       "spine",
-      "tiled-map",
       "tween",
       "ui",
-      "video",
       "webview"
     ],
     "noDeprecatedFeatures": {
