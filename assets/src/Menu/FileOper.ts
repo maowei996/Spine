@@ -22,6 +22,9 @@ export class FileOper extends Component {
   private _skeletData: any = null;
   private _textureData : Texture2D = null;
 
+  private _textureDatas: Array<Texture2D> = [];
+  private _pngNames = [];
+
   private _pngName : string = 'defa'
   private _url: string = '';
   private _key: string = '';
@@ -35,7 +38,9 @@ export class FileOper extends Component {
     this._jsonData  = null;
     this._atlasData = null;
     this._skeletData = null;
-    this._textureData = null
+    this._textureData = null;
+    this._textureDatas.length = 0;
+    this._pngNames = [];
     this._pngName  = 'defa'
     this._url = '';
     this._key = '';
@@ -46,7 +51,7 @@ export class FileOper extends Component {
 
   private checkComplect() :void {
 
-    if(this._atlasData && this._textureData){
+    if(this._atlasData && this._textureDatas.length > 0){
 
       if(this._jsonData || this._skeletData) {
 
@@ -80,15 +85,27 @@ export class FileOper extends Component {
     if (this._bJson){
       asset.skeletonJson = this._jsonData;
       asset.atlasText = this._atlasData;
-      asset.textures = [this._textureData];
-      asset.textureNames = [this._pngName];
+      // asset.textures = this._textureDatas;
+      // asset.textureNames = [this._pngName];
+      //let testures = []
+      //for (const iterator of this._textureDatas) {
+      //  testures.push(iterator)
+      //}
+      //let names = []
+      //for (const iterator of this._pngNames) {
+      //  names.push(iterator)
+      //}
+      asset.textures = this._textureDatas;
+      asset.textureNames = this._pngNames;
     }
     else
     {
       asset._nativeAsset = this._skeletData;
       asset.atlasText = this._atlasData;
-      asset.textures = [this._textureData];
-      asset.textureNames = [this._pngName];
+      //asset.textures = [this._textureData];
+      //asset.textureNames = [this._pngName];
+      asset.textures = this._textureDatas;
+      asset.textureNames = this._pngNames;
       asset._uuid = this._pngName + 'skel_spine';
 
       asset._nativeUrl = this._nativeUrl;
@@ -162,6 +179,11 @@ export class FileOper extends Component {
     let self = this;
     Html5.readTexture2d('.png',function(name: string, url: string, texture: Texture2D ){
       self._textureData = texture;
+
+      self._textureDatas.push(texture);
+
+      self._pngNames.push(name)
+
       self._pngName = name;
       self._url = url;
 
@@ -174,16 +196,15 @@ export class FileOper extends Component {
     let self = this;
     Html5.readLocalFile('.json',1,function( name: string, data : any ){
       self._jsonData = data
+      self._key = name.split('.')[0];
       self.checkComplect();
     });
-
   }
 
   onAtlasData() {
     let self = this;
     Html5.readLocalFile('.atlas',1,function( name: string, data : any ){
       self._atlasData = data
-      self._key = name.split('.')[0];
       self.checkComplect();
     });
   }
@@ -197,6 +218,8 @@ export class FileOper extends Component {
       // console.log('name:',name);
       // console.log('url:',url)
       // console.log('skel:',data);
+
+      self._key = name.split('.')[0];
 
       self._nativeUrl = url;
 

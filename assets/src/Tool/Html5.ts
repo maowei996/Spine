@@ -89,39 +89,20 @@ export class Html5 {
 
   public static createElementDiv(  cbComplect: any ): void {
     let div = document.createElement('div');
-    var text = document.createTextNode('拖入Spine文件到此处');
+    var text = document.createTextNode('拖入Spine文件到此处{png,json,atlas/skel}');
     document.body.appendChild(div);
-    //var root = document.getElementById('GameCanvas')
-    //root.appendChild(div);
-    //div.style.textAlign = "center";
-    //div.style.lineHeight = "100px";
-    //div.innerText = "拖入Spine文件到此处";
 
     document.body.appendChild(div);
     div.id = 'dragDiv';
     div.className = 'dragDivClass';
-    div.style.width = '155px';
-    div.style.height = '200px';
+    div.style.width = '150px';
+    div.style.height = '170px';
     div.style.border = '1px solid rgb(255, 0, 0)';
     div.appendChild(text);
 
     div.style.position = 'absolute';
-    // div.style.margin = '0 auto';
     div.style.left='0px';
     div.style.top='380px';
-
-    // var curDate = new Date();
-    // var timeLab = document.createElement("p");
-    // timeLab.innerText = "拖入Spine文件到此处";
-    // // timeLab.style.backgroundColor = "red";
-    // timeLab.style.width = "155px";
-    // timeLab.style.height = "20px";
-    // timeLab.style.textAlign = "center";
-    // timeLab.style.display = "inline-block";
-    // timeLab.style.verticalAlign = "middle";
-    // timeLab.style.marginTop = (parseFloat(div.style.height) - parseFloat(div.style.height))/2.0 + "px";
-    // div.appendChild(timeLab);
-
 
     //添加事件
     div.addEventListener("dragover",function(e){
@@ -136,8 +117,49 @@ export class Html5 {
         return false;
       }
 
-      if(true && filelist.length!=3) {
-        alert("数量不符合,必须是3个文件!!!");
+      if( filelist.length<3) {
+        alert("数量不符合,至少是3个文件{png,json,atlas/skel}!!!");
+        return false;
+      }
+
+      if(cbComplect){
+        cbComplect(filelist);
+      }
+    })
+  }
+
+  public static createPreLoadDiv(  cbComplect: any ): void {
+    let div = document.createElement('div');
+    var text = document.createTextNode('JFS预加载atls/png');
+    document.body.appendChild(div);
+
+    document.body.appendChild(div);
+    div.id = 'dragDiv';
+    div.className = 'dragDivClass';
+    div.style.width = '150px';
+    div.style.height = '150px';
+    div.style.border = '1px solid rgb(255, 0, 0)';
+    div.appendChild(text);
+
+    div.style.position = 'absolute';
+    div.style.left='0px';
+    div.style.top='600px';
+
+    //添加事件
+    div.addEventListener("dragover",function(e){
+      e.preventDefault();
+    })
+    div.addEventListener("drop",function(e){
+      e.preventDefault();
+
+      var filelist=e.dataTransfer.files;
+
+      if(filelist.length==0){
+        return false;
+      }
+
+      if( filelist.length<2) {
+        alert("数量不符合,至少是3个文件{png,json,atlas/skel}!!!");
         return false;
       }
 
