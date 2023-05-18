@@ -146,7 +146,7 @@ export class SpineData {
     this.version = _skeletonJson.skeleton.spine;
 
     let animations = _skeletonJson.animations || [];
-    let skins = _skeletonJson.skins || [];
+    let skins = _skeletonJson.skins || {};
     let events = _skeletonJson.events || {};
 
     this.bones = _skeletonJson.bones?.length;
@@ -156,12 +156,16 @@ export class SpineData {
       this.animations.push(key);
     }
 
-    if(skins instanceof Array){
-      for (const iterator of skins) {
-        this.skins.push(iterator.name);
-      }
-    } else{
-      this.skins.push('default');
+    // if(skins instanceof Array){
+    //   for (const iterator of skins) {
+    //     this.skins.push(iterator.name);
+    //   }
+    // } else{
+    //   this.skins.push('default');
+    // }
+
+    for (const key in skins) {
+      this.skins.push(key);
     }
 
     for (const iterator in events) {
