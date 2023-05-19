@@ -64,9 +64,6 @@ export class Machine extends Component {
     Html5.createElementDiv( (file :FileList) => {
       SkeletManager.getInstance().parse(file);
     });
-    //Html5.createPreLoadDiv( (file :FileList) => {
-    //  //SkeletManager.getInstance().parse(file);
-    //});
   }
 
 

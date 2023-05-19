@@ -128,6 +128,9 @@ export class SpineData {
       }
     } else{
       this.skins.push('default');
+      for (const key in skins) {
+        this.skins.push(key);
+      }
     }
 
     for (const iterator of events) {
@@ -156,16 +159,14 @@ export class SpineData {
       this.animations.push(key);
     }
 
-    // if(skins instanceof Array){
-    //   for (const iterator of skins) {
-    //     this.skins.push(iterator.name);
-    //   }
-    // } else{
-    //   this.skins.push('default');
-    // }
-
-    for (const key in skins) {
-      this.skins.push(key);
+    if(skins instanceof Array){
+      for (const iterator of skins) {
+        this.skins.push(iterator.name);
+      }
+    } else{
+      for (const key in skins) {
+        this.skins.push(key);
+      }
     }
 
     for (const iterator in events) {

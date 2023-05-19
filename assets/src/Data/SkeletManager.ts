@@ -16,6 +16,11 @@ interface ISPNode {
   bjson: boolean;
 }
 
+class AssertCash {
+  public textures : [];
+  public atlasData: any;
+}
+
 
 
 export class SkeletManager {
@@ -29,6 +34,8 @@ export class SkeletManager {
   private _curskeleton: SpineData = null;
 
   private _IspNode : ISPNode = null;
+
+  private _assertCash = new AssertCash;
 
   
   public static getInstance():SkeletManager {
@@ -62,7 +69,6 @@ export class SkeletManager {
 
 
   public get(key: string):SpineData {
-    // return this._map![key];
     return this._map.get(key);
   }
 
@@ -86,7 +92,6 @@ export class SkeletManager {
     return data;
   }
 
-
   public set skelet(v: any) {
     this._curskeleton = v;
   }
@@ -104,6 +109,16 @@ export class SkeletManager {
   }
 
   public parse( files: FileList ) :void {
+
+    if(files.length == 1) {
+      const element = files[0];
+      let type = element.name.split('.')[1];
+      if(type == 'json' || type == 'skel') {
+        return this.parseOnefile(files);
+      }
+      alert('解析错误,格式不正确!')
+      return;
+    }
 
     let resKey = {
       'json': 1,
@@ -146,7 +161,6 @@ export class SkeletManager {
       alert('解析错误,格式不正确!')
       return;
     }
-
 
     let key = '';
 
@@ -202,6 +216,41 @@ export class SkeletManager {
     }
   }
 
+
+  //解析单个文件
+  private parseOnefile(files: FileList ):void {
+    if(!this._assertCash.textures){
+      alert('还没有加载过png/atlas文件!')
+      return;
+    }
+
+    const element = files[0];
+    let type = element.name.split('.')[1];
+    let key = element.name.split('.')[0];
+    if(this.isHas(key)){
+      alert('已经加载过这个Spine动画!')
+      return;
+    }
+    this._IspNode.bjson = (type=='json');
+    this._IspNode.binary = (type=='skel');
+
+    let loadCount = 0
+    let loadBuffer = {}
+    loadBuffer['png'] = this._assertCash.textures;
+    loadBuffer['atlas'] = this._assertCash.atlasData;
+
+    let onComplect = (_name: string,_data: any, _key: string, _nativeUrl:string = '')=>{
+      let data = { size: (files[0].size / 1024) | 1, data: _data, name: _name ,nativeUrl:_nativeUrl}
+      loadBuffer[type] = data
+      this.loadSpine(loadBuffer);
+    }
+
+    FileTools.getInstance().readLocalFile(element,1,(data: any)=>{
+      onComplect(element.name,data,key,Html5.getFileUrl(element));
+    })
+  }
+
+
   private loadSpine(loadBuffer: any):void {
     console.log('数据读取完成')
     console.log(loadBuffer);
@@ -254,7 +303,7 @@ export class SkeletManager {
 
     data.pngsz = pngsz + 'kb';
     data.atlassz = loadBuffer['atlas'].size + 'kb';
-    data.jsonsz = loadBuffer['atlas']?.size + 'kb';
+    data.jsonsz = loadBuffer['json']?.size + 'kb';
     data.skelsz = loadBuffer['skel']?.size + 'kb';
 
     data.skeletonData = asset;
@@ -269,6 +318,9 @@ export class SkeletManager {
     param.eventType = EventType.CREATE_SPINE;
     param.param = data;
 
+
+    this._assertCash.textures = loadBuffer['png'];
+    this._assertCash.atlasData = loadBuffer['atlas'];
 
     EventManager.getInstance().emit('machine', param);
   }
