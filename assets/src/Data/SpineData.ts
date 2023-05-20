@@ -137,7 +137,9 @@ export class SpineData {
       this.events.push(iterator.name || 'error');
     }
 
-    this.defanimation = this.animations[0].split('*')[0];
+    if(this.animations.length > 0){
+      this.defanimation = this.animations[0].split('*')[0];
+    }
   }
 
   private parseJson():void {
